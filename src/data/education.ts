@@ -1,0 +1,2 @@
+import { Education } from '@/types';
+export const education: Education[] = [{ degree: 'Bachelor of Technology', institution: 'PSIT College Of Engineering, Kanpur, UP', duration: 'Aug 2018 - Jun 2022', major: 'Computer Science', achievements: ['Computer Science degree.'] }, { degree: 'Intermediate', institution: 'New Standard Public School, Raebareli, UP', duration: 'Apr 2017 - Mar 2018', major: 'Science', achievements: [] }];
