@@ -1,0 +1,2 @@
+import { Certification } from '@/types';
+export const certifications: Certification[] = ['MuleSoft Certified Developer - Level 1','MuleSoft Certified Developer - Level 2','MuleSoft Certified Integration Associate','Salesforce Platform Developer I','Salesforce Platform Developer II','Salesforce Certified Platform Foundation'].map(name => ({ name, issuer: name.startsWith('Salesforce') ? 'Salesforce' : 'MuleSoft', issued: 'See certification record', credentialId: 'Available on request' }));
